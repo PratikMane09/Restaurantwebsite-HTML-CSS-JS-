@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy Food Restaurant</title>
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/css/slick.css">
+    <link rel="stylesheet" href="css/css/slick-theme.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/422fe0785b.js" crossorigin="anonymous"></script>
+    
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar-example2" class="navbar bg-white px-3 mb-3 justify-content-evenly shadow sticky-top">
+        <a class="navbar-brand text-dark" href="#"><h1>Yummy<span class="text-danger">.</span></h1></a>
+        <ul class="nav">
+          <li class="nav-item underline">
+            <a class="nav-link" href="#scrollspyHeading1">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading2">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading3">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading4">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading5">Chefs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading6">Gallery</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#scrollspyHeading7">Contact</a>
+          </li>
+          <li class="nav-item ">
+            <div class="dropdown">
+              <button class="btn btn-white border-0 outline-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-cart3 text-secondary" viewBox="0 0 16 16">
+                  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                </svg><sup class="fs-5"></sup>
+              </button>
+              <ul class="dropdown-menu ">
+               
+              <li class="cartitems"></li>
+              <li class="subtotal"></li>
+  
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ms-5" href="#scrollspyHeading8"><button type="button" class="btn btn-danger rounded-pill">Book a Table</button></a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- content1 -->
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+        <div id="scrollspyHeading1" class="bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col p-5">
+                        <h2 class=" display-3 head1 mb-3">Enjoy your Healthy<br>Delicious Food</h2>
+                        <p class="text-muted fs-5 mb-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur veritatis doloribus, minus nulla nobis cumque accusantium magni tempore quam cum, voluptatibus repudiandae fugit totam quod, eaque porro necessitatibus nihil voluptates!</p>
+                        <button type="button" class="btn btn-danger rounded-pill btn-lg">Book a Table</button>
+                        <a href="https://youtu.be/LXb3EKWsInQ" class="text-dark"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-play-circle text-danger ms-5" viewBox="0 0 16 16" >
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
+                          </svg> Watch Video</a>
+                    </div>
+                    <div class="col">
+                      <img src="hero-img.png" class="img-fluid d-block w-100">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+      </div>
+        <!-- content2 -->
+        <div id="scrollspyHeading2 " class="bg-white p-5">
+          <p class="text-center">ABOUT US</p>
+          <h1 class="text-center head1">LEARN MORE <span class="text-danger">ABOUT US</span></h1>
+
+          <div class="container">
+            <div class="row">
+              <div class="col col-7">
+                <div class="position-relative">
+                  <img src="about.jpg" class="img-fluid d-block  w-100 " style="height: 740px;">
+                  <div class="position-absolute top-50 start-50 translate-middle-x">
+                    <div class="bg-white h-25 w-100 mt-5 p-4">
+                      <h5 class="text-center">Book a Table</h5>
+                      <h2 class="text-danger">+1 5589 55488 55</h2>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col col-5">
+                <p ><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae libero debitis quam omnis, reiciendis deleniti provident nobis laudantium minus quisquam! Magni vel voluptate mollitia et maiores at dolor facere voluptates?</i></p>
+                <ul class="list-unstyled">
+                  <li><i class="fa-solid fa-check-double text-danger"></i> laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  <li><i class="fa-solid fa-check-double text-danger"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                  <li><i class="fa-solid fa-check-double text-danger"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                </ul>
+                <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+                <div class="position-relative">
+                  <img src="about-2.jpg " class="img-fluid d-block w-100 h-100" >
+                  <div class="position-absolute top-50 start-50 translate-middle">
+                        <a href="https://youtu.be/LXb3EKWsInQ">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="currentColor" class="bi bi-play-circle text-danger ms-5" viewBox="0 0 16 16" >
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
+                          </svg>
+                        </a>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container mt-4">
+            <div class="d-flex flex-row mb-2  gap-2 bg-light">
+              <div>
+              <div class="p-3 bg-danger text-white">
+                <h1 class="p-2">Why Choose Yummy?</h1>
+              <p class="p-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla numquam, amet molestias hic magnam assumenda nihil consectetur, voluptates ipsam ratione minus. Quis exercitationem recusandae explicabo, ullam deserunt maxime aspernatur magnam.</p>
+              <button type="button" class="btn btn-lg rounded-pill text-white mx-auto d-block mt-4" style="background-color: #f08080;">Learn More</button>
+            </div>
+          </div>
+              <div class="p-2">
+                <div class="card crd " style="width: 17rem;">
+                  <div class=" div1 bg-danger-subtle rounded-circle mx-auto  text-center p-4 mt-4"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-file-earmark-bar-graph" viewBox="0 0 16 16">
+                    <path d="M10 13.5a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-6a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v6zm-2.5.5a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-1zm-3 0a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-1z"/>
+                    <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z"/>
+                  </svg>
+                </div>
+                  <div class="card-body">
+                    <h4 class="card-title text-center p-4"> Corporis voluptates officia eiusmod</h4>
+                    <p class="card-text p-2">Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                   
+                  </div>
+                </div>
+             
+              </div>
+              <div class="p-2">
+                <div class="card crd" style="width: 17rem;">
+                  <div class=" div1 bg-danger-subtle rounded-circle mx-auto  text-center p-4 mt-4"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-file-earmark-bar-graph" viewBox="0 0 16 16">
+                    <path d="M10 13.5a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-6a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v6zm-2.5.5a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-1zm-3 0a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-1z"/>
+                    <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z"/>
+                  </svg>
+                </div>
+                  <div class="card-body">
+                    <h4 class="card-title text-center p-4"> Corporis voluptates officia eiusmod</h4>
+                    <p class="card-text p-2">Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                   
+                  </div>
+                </div>
+              </div>
+              <div class="p-2 ">
+                <div class="card crd" style="width: 17rem;">
+                <div class=" div1 bg-danger-subtle rounded-circle mx-auto  text-center p-4 mt-4"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-file-earmark-bar-graph" viewBox="0 0 16 16">
+                  <path d="M10 13.5a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-6a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v6zm-2.5.5a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-1zm-3 0a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-1z"/>
+                  <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z"/>
+                </svg>
+              </div>
+                <div class="card-body">
+                  <h4 class="card-title text-center p-4"> Corporis voluptates officia eiusmod</h4>
+                  <p class="card-text p-2">Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                 
+                </div>
+              </div>
+              </div>
+            </div>
+            
+          </div>
+        
+
+          <!-- content3 -->
+          <div class=" card text-bg-dark w-100 border-0">
+            <img src="stats-bg.jpg" class="w-100 img-fluid mx-auto d-block backimg" alt="...">
+            <div class="card-img-overlay">
+            <div class=" d-flex flex-row mb-3 mt-5 justify-content-evenly align-items-center text-white">
+          <div class="p-4">
+            <h1>232</h1>
+            <p class="text-light">Clients</p>
+          </div>
+          <div class="p-4">
+            <h1>532</h1>
+            <p class="text-light">Projects</p>
+          </div>
+          <div class="p-4">
+            <h1>1433</h1>
+            <p class="text-light">Ours Support</p>
+          </div>
+           <div class="p-4">
+            <h1>52</h1>
+            <p class="text-light"> Workers</p>
+          </div>
+        </div>
+       </div>
+          
+        </div>
+
+        </div>
+        
+        <div id="scrollspyHeading3">
+          <div class="container MT-5">
+            <div class="text-center">
+              <h6 class="text-muted">OUR MENU</h6>
+              <h1 class="text-center head1">CHECK OUR <span class="text-danger">YUMMY MENU</span></h1>
+            </div>
+            <ul class="nav nav-pills mb-3 justify-content-center " id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="border-0 active menu" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Straters</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="border-0  menu" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Breakfast</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="border-0  menu" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Lunch</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="border-0 menu" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Dinner</button>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                <div class="container text-center">
+                  <h6 class="text-muted">Menu</h6>
+                  <h2 class="text-danger mb-5">Straters</h2>
+                  <div class="row row-cols-1 row-cols-md-3 g-4 elements">
+                    
+                   
+
+                  </div>
+                </div>
+
+              </div>
+              <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                <div class="container text-center">
+                  <h6 class="text-muted">Menu</h6>
+                  <h2 class="text-danger mb-5">Breakfast</h2>
+                  <div class="row row-cols-1 row-cols-md-3 g-4 elements1">
+                    
+                   
+                   
+
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                <div class="container text-center">
+                  <h6 class="text-muted">Menu</h6>
+                  <h2 class="text-danger mb-5">Lunch</h2>
+                  <div class="row row-cols-1 row-cols-md-3 g-4 elements2">
+                    
+                    <!--  images through js -->
+
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
+                <div class="container text-center">
+                  <h6 class="text-muted">Menu</h6>
+                  <h2 class="text-danger mb-5">Dinner</h2>
+                  <div class="row row-cols-1 row-cols-md-3 g-4 elements3">
+                    
+                   <!--  images through js -->
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- coursel slide -->
+
+            <div class="container bg-light MT-5">
+              <p class="text-center">TESTIMONIALS</p>
+              <h1 class="text-center head1">WHAT ARE THEY <span class="text-danger">SAYING ABOUT US</span></h1>
+              <div id="carouselExampleAutoplaying" class="carousel slide mt-5" data-bs-ride="carousel">
+              
+              
+                <div class="carousel-inner">
+                  <div class="carousel-item active border-start border-danger w-50 " >
+                    <div class="d-flex align-items-center justify-content-center">
+                      
+                      <div class="flex-grow-1 ms-3 border-left">
+                        <p class="fs-6 text-wrap me-4"><i class="fa-solid fa-quote-left text-danger"></i> cLorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium exercitationem amet dolore eveniet esse fuga nam magnam ea quaerat<i class="fa-solid fa-quote-right text-danger"></i> </p>
+                        <h6>Saul Goodman</h6>
+                        <p class="text-muted">Ceo & Founder</p>
+                        <i class="fa-sharp fa-solid fa-star text-warning"></i>
+                        <i class="fa-sharp fa-solid fa-star text-warning"></i>
+                        <i class="fa-sharp fa-solid fa-star text-warning"></i>
+                        <i class="fa-sharp fa-solid fa-star text-warning"></i>
+                        <i class="fa-sharp fa-solid fa-star text-warning"></i>
+                      </div>
+                      <div class="flex-shrink-0">
+                        <img src="testimonials/testimonials-1.jpg" alt="..." class="img-fluid rounded-circle ms-4" height="150" width="150">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item  border-start border-danger w-50 ">
+                    <div class="d-flex align-items-center justify-content-center">
+                      
+                      <div class="flex-grow-1 ms-3 border-left">
+                        <p class="fs-6 text-wrap me-4"><i class="fa-solid fa-quote-left text-danger"></i> cLorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium exercitationem amet dolore eveniet esse fuga nam magnam ea quaerat<i class="fa-solid fa-quote-right text-danger"></i> </p>
+                        <h6>Sara Wilson</h6>
+                        <p class="text-muted">Designer</p>
+                        <i class="fa-sharp fa-solid fa-star text-warning"></i>
+                        <i class="fa-sharp fa-solid fa-star text-warning"></i>
+                        <i class="fa-sharp fa-solid fa-star text-warning"></i>
+                        <i class="fa-sharp fa-solid fa-star text-warning"></i>
+                        <i class="fa-sharp fa-solid fa-star text-warning"></i>
+                      </div>
+                      <div class="flex-shrink-0">
+                        <img src="testimonials/testimonials-2.jpg" alt="..." class="img-fluid rounded-circle ms-4" height="150" width="150">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item border-start border-danger w-50">
+                    <div class="d-flex align-items-center justify-content-center">
+                      
+                      <div class="flex-grow-1 ms-3 border-left">
+                        <p class="fs-6 text-wrap me-4"><i class="fa-solid fa-quote-left text-danger"></i> cLorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium exercitationem amet dolore eveniet esse fuga nam magnam ea quaerat<i class="fa-solid fa-quote-right text-danger"></i> </p>
+                        <h6>Jena karlis</h6>
+                        <p class="text-muted">Store Owner</p>
+                        <i class="fa-sharp fa-solid fa-star text-warning"></i>
+                        <i class="fa-sharp fa-solid fa-star text-warning"></i>
+                        <i class="fa-sharp fa-solid fa-star text-warning"></i>
+                        <i class="fa-sharp fa-solid fa-star text-warning"></i>
+                        <i class="fa-sharp fa-solid fa-star text-warning"></i>
+                      </div>
+                      <div class="flex-shrink-0">
+                        <img src="testimonials/testimonials-3.jpg" alt="..." class="img-fluid rounded-circle ms-4" height="150" width="150">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item  border-start border-danger w-50 ">
+                    <div class="d-flex align-items-center justify-content-center">
+                      
+                      <div class="flex-grow-1 ms-3 border-left">
+                        <p class="fs-6 text-wrap me-4"><i class="fa-solid fa-quote-left text-danger"></i> cLorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium exercitationem amet dolore eveniet esse fuga nam magnam ea quaerat<i class="fa-solid fa-quote-right text-danger"></i> </p>
+                        <h6>John Larson</h6>
+                        <p class="text-muted">Enterprenur</p>
+                        <i class="fa-sharp fa-solid fa-star text-warning"></i>
+                        <i class="fa-sharp fa-solid fa-star text-warning"></i>
+                        <i class="fa-sharp fa-solid fa-star text-warning"></i>
+                        <i class="fa-sharp fa-solid fa-star text-warning"></i>
+                        <i class="fa-sharp fa-solid fa-star text-warning"></i>
+                      </div>
+                      <div class="flex-shrink-0">
+                        <img src="testimonials/testimonials-4.jpg" alt="..." class="img-fluid rounded-circle ms-4" height="150" width="150">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying " data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying " data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+
+
+            </div>
+
+          </div>
+        </div>
+        
+        <div id="scrollspyHeading4">
+          <div class="mt-5">
+          <p class="text-center">EVENTS</p>
+          <h1 class="text-center head1">SHARE  <span class="text-danger">YOUR MOMENTS</span>IN OUR RESTAURANT</h1>
+          
+        </div>
+        <div class="d-flex flex-row mb-3 mt-5 slider1 ">
+          <div class="p-0">
+            <div class="card text-bg-dark border-0">
+            <img src="events-1.jpg " class="card-img image1" alt="...">
+            <div class="card-img-overlay top-50 start-0 p-4">
+              <h4 class="card-title">Custom parties</h4>
+              <h2 class="underline ">$99</h2>
+              
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, provident ea voluptates laudantium est libero. Beatae quasi ut, quidem quibusdam quas dolores inventore itaque quos, repellendus voluptate sunt vitae tenetur!</p>
+            </div>
+          </div></div>
+          <div class="p-0">
+            <div class="card text-bg-dark border-0">
+            <img src="events-2.jpg" class="card-img image1" alt="...">
+            <div class="card-img-overlay top-50 start-0 p-4">
+              <h4 class="card-title">Custom parties</h4>
+              <h2 class="underline">$289</h2>
+              
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae eum in rem temporibus pariatur eligendi hic architecto dolores sunt facilis provident quidem ex, expedita voluptate quos fuga obcaecati esse vero.</p>
+            </div>
+          </div>
+        </div>
+          <div class="p-0">
+            <div class="card text-bg-dark border-0">
+            <img src="events-3.jpg" class="card-img image1" alt="...">
+            <div class="card-img-overlay top-50 start-0 p-4">
+              <h4 class="card-title">Custom parties</h4>
+              <h2 class="underline">$499</h2>
+              
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id quos unde fugiat obcaecati minima beatae commodi, laborum impedit ad dignissimos iusto doloremque, autem doloribus. Quia cupiditate dolore excepturi id veritatis?</p>
+            </div>
+          </div></div>
+          <div class="p-0">
+            <div class="card text-bg-dark border-0">
+            <img src="events-1.jpg" class="card-img image1" alt="...">
+            <div class="card-img-overlay top-50 start-0 p-4">
+              <h4 class="card-title">Custom parties</h4>
+              <h2 class="underline ">$99</h2>
+              
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, provident ea voluptates laudantium est libero. Beatae quasi ut, quidem quibusdam quas dolores inventore itaque quos, repellendus voluptate sunt vitae tenetur!</p>
+            </div>
+          </div></div>
+          <div class="p-0">
+            <div class="card text-bg-dark border-0">
+            <img src="events-2.jpg" class="card-img image1" alt="...">
+            <div class="card-img-overlay top-50 start-0 p-4">
+              <h4 class="card-title">Custom parties</h4>
+              <h2 class="underline">$289</h2>
+              
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae eum in rem temporibus pariatur eligendi hic architecto dolores sunt facilis provident quidem ex, expedita voluptate quos fuga obcaecati esse vero.</p>
+            </div>
+          </div>
+        </div>
+          <div class="p-0">
+            <div class="card text-bg-dark border-0">
+            <img src="events-3.jpg" class="card-img image1" alt="...">
+            <div class="card-img-overlay top-50 start-0 p-4">
+              <h4 class="card-title">Custom parties</h4>
+              <h2 class="underline">$499</h2>
+              
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id quos unde fugiat obcaecati minima beatae commodi, laborum impedit ad dignissimos iusto doloremque, autem doloribus. Quia cupiditate dolore excepturi id veritatis?</p>
+            </div>
+          </div>
+        </div>
+        </div> 
+        </div>
+        
+        <div id="scrollspyHeading5 bg-light ">
+          <div class="mt-5">
+          <p class="text-center">CHEFS</p>
+          <h1 class="text-center head1">OUR<span class="text-danger">PROFESSIONAL</span>CHEFS</h1> 
+        </div>
+        <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-4"  >
+          <div class="col">
+            <div class="card h-100 chef">
+              <img src="chefs/chefs-1.jpg" class="card-img-top position-relative" alt="...">
+              <div class="position-absolute end-0 p-2 bg-body-secondary bg-opacity-50 text-body-tertiary m-2 rounded hide">
+                <h3><i class="fa-brands fa-twitter"></i></h3>
+                <h3><i class="fa-brands fa-facebook"></i></h3>
+                <h3><i class="fa-brands fa-instagram"></i></h3>
+                <h3><i class="fa-brands fa-linkedin"></i></h3>
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title">walter white</h5>
+                <p class="card-text">Master chef</p>
+                <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, non ipsa neque voluptate et quasi itaque eligendi cupiditate dolore. Iste modi alias eaque.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col">
+            <div class="card h-100 chef">
+              <img src="chefs/chefs-2.jpg" class="card-img-top position-relative" alt="...">
+              <div class="position-absolute end-0 p-2 bg-body-secondary bg-opacity-50 text-body-tertiary m-2 rounded hide">
+                <h3><i class="fa-brands fa-twitter"></i></h3>
+                <h3><i class="fa-brands fa-facebook"></i></h3>
+                <h3><i class="fa-brands fa-instagram"></i></h3>
+                <h3><i class="fa-brands fa-linkedin"></i></h3>
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title">Sarah johanson</h5>
+                <p class="card-text">Patiser</p>
+                <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, non ipsa neque voluptate et quasi itaque eligendi cupiditate dolore. Iste modi alias eaque.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 chef">
+              <img src="chefs/chefs-3.jpg" class="card-img-top position-relative" alt="...">
+              <div class="position-absolute end-0 p-2 bg-body-secondary bg-opacity-50 text-body-tertiary m-2 rounded hide">
+                <h3><i class="fa-brands fa-twitter"></i></h3>
+                <h3><i class="fa-brands fa-facebook"></i></h3>
+                <h3><i class="fa-brands fa-instagram"></i></h3>
+                <h3><i class="fa-brands fa-linkedin"></i></h3>
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title">Willon anderson</h5>
+                <p class="card-text">Cook</p>
+                <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, non ipsa neque voluptate et quasi itaque eligendi cupiditate dolore. Iste modi alias eaque.</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+  </div>
+  <div id="scrollspyHeading8">
+    <div class="mt-5">
+      <p class="text-center">BOOK A TABLE</p>
+      <h1 class="text-center head1">BOOK<span class="text-danger">YOUR STAY</span>WITH US</h1> 
+    </div>
+    <div class="container  bg-light">
+      <div class="row mt-5">
+        <div class="col-4">
+           <img src="reservation.jpg" class="img-fluid d-block w-100">
+        </div>
+
+
+        <div class="col-8 mt-5">
+          <div class="row mb-4">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Your Name" aria-label="First name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Your Email" aria-label="Last name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Your Phone" aria-label="Last name">
+            </div>
+          </div>
+
+          <div class="row mb-4 ">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Date" aria-label="First name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="time" aria-label="Last name">
+            </div>
+            <div class="col">
+              <input type="number" class="form-control" placeholder="# of people" aria-label="Last name">
+            </div>
+          </div>
+
+
+          <div class="mb-4">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Message"></textarea>
+          </div>
+          <button type="button" class="btn btn-danger rounded-pill btn-lg mx-auto d-block p-2 w-25">Book a Table</button>
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+        <div id="scrollspyHeading6">
+          <div class="container bg-light">
+            <div class="mt-5">
+              <p class="text-center">GALLARY</p>
+              <h1 class="text-center head1">CHECK<span class="text-danger">OUR GALLARY</span></h1>
+            </div>
+            <div class="d-flex flex-row mb-3 mt-5 slider2">
+              <div class="p-2"><img src="gallery/gallery-1.jpg" class="img-fluid d-block w-100"> </div>
+              <div class="p-2"><img src="gallery/gallery-2.jpg"class="img-fluid d-block w-100"> </div>
+              <div class="p-2"><img src="gallery/gallery-3.jpg"class="img-fluid d-block w-100"> </div>
+              <div class="p-2"><img src="gallery/gallery-4.jpg"class="img-fluid d-block w-100"> </div>
+              <div class="p-2"><img src="gallery/gallery-5.jpg"class="img-fluid d-block w-100"> </div>
+              <div class="p-2"><img src="gallery/gallery-6.jpg"class="img-fluid d-block w-100"> </div>
+              <div class="p-2"><img src="gallery/gallery-7.jpg"class="img-fluid d-block w-100"> </div>
+              <div class="p-2"><img src="gallery/gallery-8.jpg"class="img-fluid d-block w-100"> </div>
+            </div>
+
+          </div>
+        </div>
+
+
+
+        <div id="scrollspyHeading7">
+          <div class="container">
+            <div class="mt-5">
+              <p class="text-center">CONTACT</p>
+              <h1 class="text-center head1">NEED HELP?<span class="text-danger"> CONTACT US</span></h1>
+            </div>
+            <div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.3614644911563!2d-74.0061377!3d40.710058599999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sin!4v1689764337236!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-100 mt-5"></iframe>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 g-4 mt-4">
+              <div class="col">
+                <div class="card mb-3 bg-light border-0" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4 rounded-circle bg-danger Contact p-3 m-3">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-map text-white" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M15.817.113A.5.5 0 0 1 16 .5v14a.5.5 0 0 1-.402.49l-5 1a.502.502 0 0 1-.196 0L5.5 15.01l-4.902.98A.5.5 0 0 1 0 15.5v-14a.5.5 0 0 1 .402-.49l5-1a.5.5 0 0 1 .196 0L10.5.99l4.902-.98a.5.5 0 0 1 .415.103zM10 1.91l-4-.8v12.98l4 .8V1.91zm1 12.98 4-.8V1.11l-4 .8v12.98zm-6-.8V1.11l-4 .8v12.98l4-.8z"/>
+                      </svg>
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title text-secondary">Our Address</h5>
+                        <p class="card-text">157 William St, New York, NY 10038, United States</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card mb-3 bg-light border-0" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4 rounded-circle bg-danger Contact p-3 m-3">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope text-white" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                      </svg>
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title text-secondary">Email Us</h5>
+                        <p class="card-text">Contact@example.com</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card mb-3 bg-light border-0" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4 rounded-circle bg-danger Contact p-3 m-3">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-telephone text-white" viewBox="0 0 16 16">
+                        <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                      </svg>
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title text-secondary">Call Us</h5>
+                        <p class="card-text">+1 5589 284139</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card mb-3 bg-light border-0" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4 rounded-circle bg-danger Contact p-3 m-3">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-share text-white" viewBox="0 0 16 16">
+                        <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
+                      </svg>
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title text-secondary">Opening Hours</h5>
+                        <p class="card-text"><b>Mon-Sat:</b> 11Am-23Pm;<b> Sunday:</b> Closed</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+       
+
+      </div>
+
+      <div class="container">
+        <div class="row mb-4 ">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Your name" aria-label="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Your name" aria-label="Last name">
+          </div>
+        </div>
+        <div class="col-12 mb-4">
+          <input type="text" class="form-control" id="inputAddress" placeholder="Subject">
+        </div>
+        <div class="mb-4">
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Message"></textarea>
+        </div>
+        <button type="button" class="btn btn-danger rounded-pill btn-lg mx-auto d-block p-2 w-25">Send Message</button>
+      </div>
+
+      <!-- footer -->
+      <div class="container-fluid mt-4">
+        <div class="d-flex flex-row justify-content-evenly bg-dark text-white align-items-center p-4 border-bottom  border-bottom-secondary">
+          <div class="p-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+              <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+              <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+            </svg>
+            <span class="fs-5 ms-3">Address</span>
+            <p class="text-secondary ms-5 mt-2">157 William St, New York, <br>NY 10038, United States</p>
+          </div>
+          <div class="p-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+              <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+            </svg>
+            <span class="fs-5 ms-3">Reservation</span>
+            <p class="text-secondary ms-5 mt-2">Phone:+1 5589 284139<br>Email:info@example.com</p>
+          </div>
+          <div class="p-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+              <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+              <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+            </svg>
+            <span class="fs-5 ms-3">Opening Hours</span>
+            <p class="text-secondary ms-5 mt-2">Mon-Sat: 11Am-23Pm<br> Sunday: Closed</p>
+          </div>
+          <div class="p-2">
+            <h5 class="ms-3">Follow Us</h5>
+            <div class="p-2 m-2 rounded d-flex text-secondary justify-content-evenly ">
+              <div class="p-2 border border-1 border-secondary rounded-circle"><a href="#"><i class="fa-brands fa-twitter fs-3"></i></a></div>
+              <div class="p-2 border border-1 border-secondary rounded-circle ms-2"><a href="#"><i class="fa-brands fa-facebook fs-3"></i></a></div>
+              <div class="p-2 border border-1 border-secondary rounded-circle ms-2"><a href="#"><i class="fa-brands fa-instagram fs-3"></i></a></div>
+              <div class="p-2 border border-1 border-secondary rounded-circle ms-2"><a href="#"><i class="fa-brands fa-linkedin fs-3"></i></a></div>
+            </div>
+          </div>
+
+          <hr>
+          
+        </div>
+        <div class="bg-dark text-secondary text-center ">
+          <p class="p-4">&copy;Copyright <b>Yummy</b>.All Rights Reserved <br>
+          Designed by BootstrapMade</p>
+
+        </div>
+      
+
+        <div class="sticky-bottom position-sticky">
+           <div class="d-flex flex-row-reverse "><a href="#top">
+           <div class="p-2">
+           <svg xmlns="http://www.w3.org/2000/svg"  class="text-danger" width="40" height="40" fill="currentColor" class="bi bi-arrow-up-circle-fill text-danger" viewBox="0 0 16 16">
+           <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+           </svg>
+           </div>
+        </a> 
+          </div>
+      
+
+      </div>
+    
+
+
+
+
+
+        <script>
+          $(document).ready(function(){
+            $('.slider1').slick({
+              slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  dots:true,
+  autoplaySpeed: 2000,
+});
+$('.slider2').slick({
+  centerMode: true,
+  centerPadding: '60px',
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  
+  autoplay: true,
+  dots:true,
+  autoplaySpeed: 2000,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+          })
+
+          
+          
+        </script>
+        <script src="JS/slick.js"></script>
+        <script src="JS/slick.min.js"></script>   
+</body>
+</html>
+<script src="product.js"></script>
